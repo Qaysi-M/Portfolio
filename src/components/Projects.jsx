@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import {
     CardSt, CardTitleSt, CardFooterSt, CardTextSt, CardSubtitleSt
 } from './Styles';
@@ -15,7 +15,10 @@ const Project = ({ project }) =>
             <CardTitleSt>{project.name}</CardTitleSt>
             <CardSubtitleSt>{project.date}</CardSubtitleSt>
             <CardTextSt>{project.description}</CardTextSt>
-            {project.links.map(link => <CardFooterSt key={link.name}><ASt href={link.link}> {link.name} </ASt></CardFooterSt>)}
+            {project.links.map(link =>
+                <CardFooterSt key={link.name}>
+                    <ASt href={link.link}> {link.name} </ASt>
+                </CardFooterSt>)}
         </CardBody>
     </CardSt>
 

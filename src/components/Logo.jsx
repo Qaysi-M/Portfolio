@@ -68,7 +68,7 @@ export const Intro = () => {
 
 
     return <IntroSt width={width}>
-        Abstractions, mathematics, complexities, learnings, and the outdoors.
+        Loving topology, probability theory, and functional programming
     </IntroSt>
 
 }
