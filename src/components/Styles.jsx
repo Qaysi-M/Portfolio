@@ -82,8 +82,3 @@ export const CardFooterSt = styled(CardFooter)`
     //font-weight: ${props => props.theme.font.weight_2};
 `
 
-export const DivSideSt = styled.div`
-    flex-wrap: 100%;
-    flex-direction: row;
-    //font-weight: ${props => props.theme.font.weight_2};
-`
