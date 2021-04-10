@@ -68,7 +68,7 @@ export const Intro = () => {
 
 
     return <IntroSt width={width}>
-        Loving topology, probability theory, and functional programming
+        Enjoy topology, probability theory, and functional programming
     </IntroSt>
 
 }
